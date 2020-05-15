@@ -42,7 +42,7 @@ module.exports = {
               {
                 text: 'Scaffold',
                 items: [
-                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' }
+                  { text: 'z-Admin', link: '/zh/doc/z-admin/' }
                 ]
               },
               {
@@ -80,7 +80,7 @@ module.exports = {
               {
                 text: '脚手架',
                 items: [
-                  { text: 'D2 Admin', link: '/zh/doc/d2-admin/' }
+                  { text: 'z-Admin', link: '/zh/doc/z-admin/' }
                 ]
               },
               {
@@ -106,10 +106,16 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/zh/doc/d2-admin/': [
+          '/zh/doc/z-admin/':[
             {
               title: '开始使用',
-              children: [ '', 'learn/start', 'learn/knowledge' ]
+              children: [ 'base/introduce', 'base/modules' ]
+            }
+          ],
+          '/zh/doc/d2-admin/':[
+            {
+              title: '基础',
+              children: [ 'learn/start', 'learn/knowledge' ]
             },
             {
               title: '组件',
